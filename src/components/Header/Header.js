@@ -3,12 +3,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import mainlogo from '../../images/atelierjs.png';
+
 // COMPONENT
 
 export const Header = () => (
     <nav className="navbar navbar-expand-lg navbar-light alert-dark">
         <a className="navbar-brand" href="/">
-            <i className="fab fa-react fa-2x" style={{color: 'dodgerblue'}}></i>
+            <img className="m-3" height="100" src={mainlogo} alt="Main Logo" />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
             <span className="navbar-toggler-icon"></span>
