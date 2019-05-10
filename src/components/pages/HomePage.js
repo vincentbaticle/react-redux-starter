@@ -17,6 +17,10 @@ import webpack from '../../images/webpack-small.png';
 const HomePage = () => (
     <main>
         <div className="jumbotron jumbotron-fluid text-dark bg-light animated fadeIn">
+            <h3 className="display-6">Atelier Js basé sur le dépot github drminnaar/react-redux-starter</h3>
+            <p className="lead">Punchline / Veille / Organisation devents</p>
+        </div>
+        <div className="jumbotron jumbotron-fluid text-dark bg-light animated fadeIn">
             <h1 className="display-6 text-center">React Redux Starter</h1>
             <p className="lead text-center">The essential elements required to start building apps using React, React Router, Redux, Bootstrap 4, SASS, and Webpack</p>
             <hr className="my-4" />
